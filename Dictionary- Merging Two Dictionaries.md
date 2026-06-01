@@ -13,6 +13,17 @@ To write a Python program that merges **two dictionaries** and combines their ke
 
 Add code here
 
+```p
+dict1 = {'a': 1, 'b': 2, 'c': 3}
+dict2 = {'d': 4, 'e': 5, 'f': 6}
+
+def merge():
+    return {**dict1, **dict2}
+
+print(merge())
+```
 ## Output
+<img width="1837" height="457" alt="image" src="https://github.com/user-attachments/assets/960adc27-3570-425b-9cea-8c595c27084f" />
 
 ## Result
+Thus, the Python program to merge two dictionaries using the ** unpacking operator was successfully executed and verified.
